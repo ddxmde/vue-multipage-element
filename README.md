@@ -3,6 +3,7 @@ vue多页面应用+elementUI+vue全家桶
 
 安装依赖
 npm i
+
 开发环境构建
 npm run dev
 
