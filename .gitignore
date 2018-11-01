@@ -1,0 +1,15 @@
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+.idea/
+.DS_Store
+._DS_Store
+._*
+node_modules/
+.project
+dist
+dist/*
+\._node_modules
+cache
+package-lock.json

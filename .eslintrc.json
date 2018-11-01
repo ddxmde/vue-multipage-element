@@ -1,0 +1,41 @@
+{
+    "root": true,
+    "extends":[
+        "plugin:vue/essential"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    },
+    "globals": {},
+    "plugins": [
+       "html" 
+    ],
+    "rules": {
+        "indent": ["error",4],
+        "camelcase": "error",
+        "no-console": "off",
+        "no-alert": "error",
+        "require-jsdoc": ["error", {
+            "require": {
+                "FunctionDeclaration": false,
+                "MethodDefinition": false,
+                "ClassDeclaration": false,
+                "ArrowFunctionExpression": false
+            }
+        }],
+        "no-const-assign": "error",
+        "new-cap": "error",
+        "brace-style": "error",
+        "comma-dangle": "error",
+        "no-param-reassign": "error"
+    }
+}
